@@ -7,6 +7,7 @@ namespace Assignment1
 {
     public class House
     {
+        public int Id {get; set;}
         public int Value { get; set; }
         public double LotSize { get; set; }
         public string Address { get; set; }
